@@ -1,4 +1,4 @@
-# E-Commerce API: EasyShop
+# EasyShop Back End + API
 ___
 This project is an e-commerce application or online store for a company called
 EasyShop. 
