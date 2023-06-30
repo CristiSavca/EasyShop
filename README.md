@@ -29,16 +29,14 @@ List of implemented methods:
 
 REST methods required:
 
-![image](https://github.com/CristiSavca/EasyShop/assets/58373811/66983767-28f0-4a83-bf2b-9728d3a93424)
-
+![img](https://github.com/CristiSavca/EasyShop/assets/58373811/c5c4c009-4dc4-4c06-82b8-21dbe7ef26df)
 
 CategoriesController addCategory() method implementation:
-![image](https://github.com/CristiSavca/EasyShop/assets/58373811/0a83ee5b-58fc-4438-8536-035ac352d30b)
-
+![img_1](https://github.com/CristiSavca/EasyShop/assets/58373811/4a11608b-87b3-425b-b152-2f5216efa44c)
 
 MySqlCategoryDao create() method implementation:
 
-![image](https://github.com/CristiSavca/EasyShop/assets/58373811/9fe160dc-cd9c-4036-9c00-7470c5aacbf3)
+![img_2](https://github.com/CristiSavca/EasyShop/assets/58373811/ec3f1eff-a2ce-49b2-93b7-17248cb1a5aa)
 
 ### Phase 2 -  Fix Bugs:
 ___
@@ -47,18 +45,18 @@ For bug 1, the product search functionality is returning incorrect results.
 All that was required to fix this bug was to add a maximum price line in 
 the sql statement. The maxPrice was also added twice inside the try/catch code.
 
-![image](https://github.com/CristiSavca/EasyShop/assets/58373811/a91db119-7f2a-45d4-91f3-9e124f99545d)
+![img_3](https://github.com/CristiSavca/EasyShop/assets/58373811/ce4c9a02-96da-4b42-ad9e-9d4170b19aaf)
 
 For bug 2, products would be duplicated because instead of updating the product,
 a new product would be added to the database. To fix this all that was required was to
 change create to update in below method.
 
-![image](https://github.com/CristiSavca/EasyShop/assets/58373811/4bb57e07-baf3-4a79-b48a-57cdc6dd6fbc)
+![img_4](https://github.com/CristiSavca/EasyShop/assets/58373811/e6bf18b4-4a2c-4d19-ba25-bedc4526d258)
 
 ## Interesting Piece of Code
 ___
 
 MySqlCategoryDaoTest:
 
-![image](https://github.com/CristiSavca/EasyShop/assets/58373811/630d940a-8795-42d6-b19c-781184d0c563)
+![img_5](https://github.com/CristiSavca/EasyShop/assets/58373811/c0395841-c05a-4f05-a1a3-2dd0f5c82209)
 
