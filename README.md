@@ -60,3 +60,6 @@ MySqlCategoryDaoTest:
 
 ![img_5](https://github.com/CristiSavca/EasyShop/assets/58373811/c0395841-c05a-4f05-a1a3-2dd0f5c82209)
 
+## Postman Collection Tests
+
+![postman](https://github.com/CristiSavca/EasyShop/assets/58373811/87f317bd-5cf5-439e-895d-a72c8dd96420)
